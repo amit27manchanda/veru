@@ -52,17 +52,21 @@ header{
 	margin: 20px;
 	float: left;
 	background: image-url('RD.png');
+	
 }
 nav{
 
 	float: right;
 	padding: 25px 20px;
 }
+#logo-2{
+	display:hidden;
+}
 #menu-icon{
 	display:hidden;
 	width:40px;
 	height:40px;
-	background: url(images/nav.png) centre;
+	background: url("nav.png") centre;
 }
 a:hover#menu-icon{
 	border-radius: 4px 4px;
@@ -231,4 +235,32 @@ footer.second p{
 	padding: 5px 0 9px 0;
 }
 
+
+@media screen and (max-width: 768px) {
+	h2{
+		font-size:150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120%;
+	}
+	header{
+		position: absolute;
+	}
+	#logo{
+		margin: 15px 15px 0px 15px;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	nav ul, nav:active ul{
+		display:none;
+		z-index:1000;
+		position:absolute;
+
+	}
+
+}
 
