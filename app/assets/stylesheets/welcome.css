@@ -224,15 +224,16 @@ footer{
 .social i:hover{
 	color:#f5f5f5;
 }
-footer.second{
+.second{
 	border-top: 1px solid #AADCD2;
 	background-color: #544B59;
 	height: 55px;
 	text-align: center;
 	margin:0;
+	width: 100%;
 }
-footer.second p{
-	padding: 5px 0 9px 0;
+.second p{
+	padding: 0px 0 2px 0;
 }
 
 
