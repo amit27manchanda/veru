@@ -1,24 +1,10 @@
-<head
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="assets/welcome.css.scss">
 </head>
+<%= render :partial => "welcome/header" %>
 <body>
-    <header>
-        <div id="header-inner">
-        <a href="welcome.html" id="logo"></a>
-        <nav>
-           <a href="#" id="menu-icon"></a>
-            <ul>
-                <li><a href="welcome.html" class="current">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Our Team</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav> 
-        </div>
-    </header>
-
 <section class="banner">
        <div class="bannner-inner">
           <%= image_tag("rocket_design.jpg", :alt => "") %>
@@ -103,7 +89,6 @@
   <li><i class="fa fa-instagram"></i></li>
   </ul>
 </footer>
-<footer class="second">
-  <p>&copy; Versuvius</p>
-</footer>
+<%= render :partial => "welcome/footer" %>
 </body>
+</html>
